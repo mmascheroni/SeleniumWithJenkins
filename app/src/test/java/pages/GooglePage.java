@@ -9,7 +9,7 @@ public class GooglePage extends BasePage {
     private String criteria = "Selenium";
     private String inputSearch = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/textarea";
     private String searchButton = "//input[@value='Buscar con Google']";
-    private String firstTitle = "//*[@id=\"rso\"]/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a/h3";
+    private String firstTitle = "//*[@id=\"rso\"]/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a/h2";
 
     public GooglePage() {
         super();
